@@ -1,4 +1,6 @@
-# Status apps user documentation
+# To-do
+
+<!--
 
 ![Status Help illustration](./overrides/assets/images/status-help-image.png)
 
@@ -20,8 +22,6 @@ This repository uses a simplified version of the Gitflow git branching model fro
 
 See the [contributing guide](https://github.com/status-im/help.status.im/blob/master/CONTRIBUTING.md) for detailed instructions on collaborating with our project.
 
-<!-- We accept different types of contributions, including some that don't require you to deal with git or GitHub. -->
-
 On every article in the Status user documentation, you can click the edit ![Edit button](./overrides/assets/icons/edit_black_24dp.svg) button to open a pull request for quick fixes like typos, updates, or link fixes.
 
 For more complex contributions, you can [open an issue](https://github.com/status-im/help.status.im/issues/new/choose) using the most appropriate issue template to describe the changes you'd like to see.
@@ -40,3 +40,5 @@ The [Status' Docs team](https://github.com/orgs/status-im/teams/docs) adds new c
 ## License
 
 The Status user documentation is licensed under the MIT license. The Material for MkDocs components of our documentation are licensed under the [Material for MkDocs license](https://github.com/squidfunk/mkdocs-material/blob/master/LICENSE).
+
+-->

@@ -1,4 +1,6 @@
-# Welcome to the Status Help contributing guide
+# To-do
+
+<!--
 
 Thank you for investing your time in contributing to our project! Any contribution you make will be reflected on [help.status.im](https://help.status.im).
 
@@ -212,3 +214,5 @@ With the Mkdocs live preview server, you can preview your changes as you write y
 - As you update your PR and apply changes, mark each conversation as [resolved](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/commenting-on-a-pull-request#resolving-conversations).
 
 Congratulations on making it this far! The Status team thanks you.
+
+-->

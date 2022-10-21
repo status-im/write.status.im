@@ -2,17 +2,17 @@
 
 # Project information
 site_name: 'Status writing style guide'
-site_url: https://help.status.im/style-guide/
+site_url: https://write.status.im/
 site_author: 'Status Research & Development GmbH'
-site_description: 'Status writing style guide'
+site_description: 'Status docs writing style guide'
 
 # Project directories
 docs_dir: '../../docs/style-guide/'
 site_dir: '../../generated/style-guide/'
 
 # Repository
-repo_name: 'Status Help'
-repo_url: https://github.com/status-im/help.status.im
+repo_name: 'Status docs style guide'
+repo_url: https://github.com/status-im/write.status.im
 edit_uri: edit/develop/docs/style-guide
 
 # Copyright

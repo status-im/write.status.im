@@ -1,6 +1,0 @@
----
-hide:
-  - navigation
----
-
-# Status Wallet

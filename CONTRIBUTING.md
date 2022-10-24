@@ -1,7 +1,5 @@
 # To-do
 
-<!--
-
 Thank you for investing your time in contributing to our project! Any contribution you make will be reflected on [help.status.im](https://help.status.im).
 
 This guide provides an overview of the different types of contributions and the contribution workflow. Read the [Status Code of Conduct](https://people-ops.status.im/code-of-conduct/) to keep this place approachable and respectable.
@@ -122,7 +120,7 @@ To understand how a repository fork works, see [About forks](https://docs.github
     
 1. Using the editor of your choice, write the required changes.
     
-    > If you have doubts about how to write something, check the [Status style guide](https://help.status.im/style-guide/).
+    > If you have doubts about how to write something, check the [Status style guide](https://write.status.im/).
 
 ### 4. Test your changes
 

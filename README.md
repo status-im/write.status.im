@@ -1,10 +1,8 @@
 # To-do
 
-<!--
-
 ![Status Help illustration](./overrides/assets/images/status-help-image.png)
 
-This repository contains the documentation website code and Markdown files for [help.status.im](https://help.status.im).
+This repository contains the writing style guide for Status documentation hostd on [write.status.im](https://write.status.im).
 
 We use [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) to build the user documentation site.
 
@@ -20,25 +18,23 @@ This repository uses a simplified version of the Gitflow git branching model fro
 
 ## Contributing
 
-See the [contributing guide](https://github.com/status-im/help.status.im/blob/master/CONTRIBUTING.md) for detailed instructions on collaborating with our project.
+See the [contributing guide](https://github.com/status-im/write.status.im/blob/master/CONTRIBUTING.md) for detailed instructions on collaborating with our project.
 
 On every article in the Status user documentation, you can click the edit ![Edit button](./overrides/assets/icons/edit_black_24dp.svg) button to open a pull request for quick fixes like typos, updates, or link fixes.
 
-For more complex contributions, you can [open an issue](https://github.com/status-im/help.status.im/issues/new/choose) using the most appropriate issue template to describe the changes you'd like to see.
+For more complex contributions, you can [open an issue](https://github.com/status-im/write.status.im/issues/new/choose) using the most appropriate issue template to describe the changes you'd like to see.
 
-If you're looking for a way to contribute, you can scan through [our existing issues](https://github.com/status-im/help.status.im/issues) for something to work on. When ready, check our [contributing guide](https://github.com/status-im/help.status.im/blob/master/CONTRIBUTING.md) for detailed instructions.
+If you're looking for a way to contribute, you can scan through [our existing issues](https://github.com/status-im/write.status.im/issues) for something to work on. When ready, check our [contributing guide](https://github.com/status-im/write.status.im/blob/master/CONTRIBUTING.md) for detailed instructions.
 
 ## Continuous integration
 
 We build two branches using [our Jenkins instance](https://ci.status.im/):
 
-* `master` is deployed to https://help.status.im/ by [CI](https://ci.status.im/job/website/job/help.status.im/)
-* `develop` is deployed to https://dev-help.status.im/ by [CI](https://ci.status.im/job/website/job/dev-help.status.im/)
+* `master` is deployed to https://write.status.im/ by [CI](https://ci.infra.status.im/job/website/job/write.status.im/)
+* `develop` is deployed to https://dev-write.status.im/ by [CI](https://ci.infra.status.im/job/website/job/dev-write.status.im/)
 
-The [Status' Docs team](https://github.com/orgs/status-im/teams/docs) adds new content and fixes to the `develop` branch and periodically merges updates into the `master` branch. When merging changes, we [rebase](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) on the `develop` branch. You can keep track of the documentation updates on the [releases](https://github.com/status-im/help.status.im/releases) page.
+The [Status Docs team](https://github.com/orgs/status-im/teams/docs) adds new content and fixes to the `develop` branch and periodically merges updates into the `master` branch. When merging changes, we [rebase](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) on the `develop` branch. You can keep track of the documentation updates on the [releases](https://github.com/status-im/help.status.im/releases) page.
 
 ## License
 
 The Status user documentation is licensed under the MIT license. The Material for MkDocs components of our documentation are licensed under the [Material for MkDocs license](https://github.com/squidfunk/mkdocs-material/blob/master/LICENSE).
-
--->

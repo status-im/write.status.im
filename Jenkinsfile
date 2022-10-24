@@ -21,7 +21,7 @@ pipeline {
     GIT_COMMITTER_EMAIL = 'auto@status.im'
     GIT_SSH_COMMAND = 'ssh -o StrictHostKeyChecking=no'
     /* dev page settings */
-    DEV_SITE = 'dev-help.status.im'
+    DEV_SITE = 'dev-write.status.im'
     DEV_HOST = 'jenkins@node-01.do-ams3.sites.misc.statusim.net'
     SCP_OPTS = 'StrictHostKeyChecking=no'
   }
@@ -38,8 +38,7 @@ pipeline {
 
     stage('Build') {
       steps {
-        sh 'python3 -m mkdocs build -f config/en/mkdocs.yml'
-        sh 'python3 -m mkdocs build -f config/style-guide/mkdocs.yml'
+        sh 'python3 -m mkdocs build -f config/mkdocs.yml'
         /* Temporary solution for lack of start page. */
         sh 'cp overrides/static/* generated/'
       }

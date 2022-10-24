@@ -1,14 +1,14 @@
 # Material for MkDocs STYLE GUIDE configuration file
 
 # Project information
-site_name: 'Status writing style guide'
+site_name: 'Status Style Guide'
 site_url: https://write.status.im/
 site_author: 'Status Research & Development GmbH'
 site_description: 'Status docs writing style guide'
 
 # Project directories
-docs_dir: '../../docs/'
-site_dir: '../../generated/'
+docs_dir: '../docs/'
+site_dir: '../generated/'
 
 # Repository
 repo_name: 'Status docs style guide'
@@ -21,7 +21,7 @@ copyright: 'Status Research & Development GmbH'
 # Theme configuration
 theme:
     name: material
-    custom_dir: '../../overrides/'
+    custom_dir: '../overrides/'
     logo: assets/images/status-logo-320x320.png
     favicon: assets/images/status-logo-32x32.png             # Status favicon
     language: en
@@ -86,6 +86,9 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -120,7 +123,7 @@ plugins:
   - git-committers:
       docs_path: docs/
       repository: status-im/write.status.im
-      branch: master
+      branch: develop
   - git-revision-date
   - git-revision-date-localized:
       type: date

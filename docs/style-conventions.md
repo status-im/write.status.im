@@ -137,7 +137,7 @@ We prioritize simplicity over comprehensiveness. If you can't find a particular 
     - Use commas to separate main clauses.
     - Use a comma before *such as*.
     - Use a comma after *for example*.
-    - Use the Oxford comma for *and* and *or* conjunctions.
+    - Use the Oxford comma for *and* and *or* conjunctions where the meaning of your sentence would otherwise be unclear. In other cases, avoid placing the extra comma.
 - Use these guidelines for periods:
     - Use a period at the end of a sentence, including sentences ending on a [URL](#links).
     - Observe the punctuation rules for items on a [bullet list](#bullet-lists).
@@ -543,9 +543,20 @@ Modal verbs are auxiliary verbs that modify the meaning of the main verb in a se
     | **Correct** | Here you can find the list of keyboard shortcuts.                      |
     | Incorrect   | In the following section, you can find the list of keyboard shortcuts. |
 
-## Common words usage
+## Spelling
 
-- For spelling differences among English dialects, adhere to the most widely used dialect.
+Use the Oxford spelling.
+
+- Use the suffix *-ize* instead of *-ise*. As such, write *organize* and *organization*, not *organise* and *organisation*.
+- The rule above doesn't affect the spelling of words ending in *-yse*, such as *analyse*.
+- Some examples of the Oxford spelling include: globalization, behaviour, centre, defence, catalogue, programme.
+- If in doubt of any spelling, feel free to use the [Cambridge Dictionary][cambridge-dictionary]{:target="_blank"}.
+
+## Word choice
+
+Write in Global and Plain English.
+
+- Don't use words that can be confusing for non-native speakers. For more details, see the [A-Z of alternative words :octicons-tab-external-16:][plain-english-alternative-words]{:target="_blank"} composed by the Plain English Campaign.
 - Don't use Latin abbreviations like *e.g.*, *etc.* or *i.e.* Use an English equivalent, like *for example*, *and so on*, or *that is*.
 - This list summarizes some common words and terms:
 

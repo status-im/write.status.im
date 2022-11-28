@@ -37,7 +37,7 @@ We prioritize simplicity over comprehensiveness. If you can't find a particular 
 
 ## Capitalization
 
-- Use sentence-style capitalization, including [titles](#titles). That means everything is lowercase except the first word, proper nouns, like the [Status product names](#product-names-and-user-interface-areas).
+- Use sentence-style capitalization, including [titles](#titles). That means everything is lowercase except the first word, proper nouns, like the [Status product names](./terminology.md#status-products-and-features-names).
 
     | Usage       | Example                                     |
     |:------------|:--------------------------------------------|
@@ -572,57 +572,6 @@ Modal verbs are auxiliary verbs that modify the meaning of the main verb in a se
     | GNU Linux         | Linux                                 |
     | Apple Silicon     | Apple silicon                         |
     | Intel (processor) | Intel processor                       |
-
-## Naming products, user interface areas, and icons
-
-Products and user interface areas names include:
-
-- Status apps features (for example, Status Communities).
-- Products and services that are part of the [Status Network :octicons-tab-external-16:](https://statusnetwork.com/){:target="_blank"} (for example, Keycard).
-- Areas in the Status apps user interface (like the Activity Center).
-
-!!! info
-    Observe the capitalization convention. For example, use *Activity Center* and not *activity center*.
-
-### Products and user interface areas reference
-
-| Product/UI name | Notes |
-|:---|:---|
-| Status Communities | Include *Status* the first time you write about Communities in the body text. |
-| Activity Center | UI area where users can review and respond to activity notifications (:desktop-notification:) |
-| profile picture | Clickable UI element with the user's picture |
-| formatting toolbar | Toolbar showing the text formatting options |
-
-### Status Desktop and Status Web main UI areas
-
-This picture describes the main user interface areas for Status Web and Status Desktop apps. Use this terminology to [describe user interface](#ui-elements) areas.
-
-!!! info
-    To write UI areas or sidebars, use a bold typeface only for the visible part in the UI. Check the [format guidelines](#format-guidelines) in UI elements for more information.
-
-![Description of the main user interface areas in the desktop and mobile apps](./style-conventions/12-6-1-light.png#only-light)
-![Description of the main user interface areas in the desktop and mobile apps](./style-conventions/12-6-1-dark.png#only-dark)
-
-| Area | Name convention |
-|:---|:---|
-| A | navigation sidebar |
-| B | [content] sidebar, where [content] depends on the element the user selects in the navigation bar.</br>For example, when the user clicks the *Settings* option in the navigation bar, this area is the *Settings sidebar*. When the user clicks the *Community* option, this is the *Community sidebar*. And so on. |
-| C | content area |
-| D | right sidebar |
-| E | channel information at the top of the content area |
-| F | pinned messages area |
-
-### Icon names
-
-| Platform | Name       | Icon                 |
-|:---------|:-----------|:---------------------|
-| desktop  | edit       | :desktop-edit-2:     |
-| desktop  | group chat | :desktop-group-chat: |
-| desktop  | wallet     | :desktop-wallet:     |
-| mobile   | edit       | :mobile-edit:        |
-| mobile   | delete     | :mobile-delete:      |
-| mobile   | send       | :mobile-send:        |
-| web      | members    | :web-members:        |
 
 <br>[:octicons-git-branch-24: Contribute to our docs][contributors-guide]{ .md-button }</br>
 

@@ -1,7 +1,7 @@
 # Material for MkDocs STYLE GUIDE configuration file
 
 # Project information
-site_name: 'Status Style Guide'
+site_name: 'Status writing style guide'
 site_url: https://write.status.im/
 site_author: 'Status Research & Development GmbH'
 site_description: 'Status docs writing style guide'
@@ -135,3 +135,5 @@ nav:
   - Style guidelines: style-guidelines.md
   - Structuring the content: structuring-the-content.md
   - Style conventions: style-conventions.md
+  - Terminology: terminology.md
+

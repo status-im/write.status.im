@@ -14,7 +14,7 @@ The Status writing style guide aims to provide easy-to-follow guidelines for wri
 
 This guide doesn't contain lengthy linguistic explanations. Instead, it's intended to be a simple, real-world resource for anyone willing to contribute to the Status documentation, from writers ready to document product functionalities to casual contributors who want to improve the existing content.
 
-The [first part](style-guidelines.md) of this guide describes general style guidelines. In the [second part](./structuring-the-content.md), you can find the different types of articles in the Status documentation, including directions on structuring your content. The [final part](./style-conventions.md) serves as a reference to the different styles in the Status documentation.
+The [Style guidelines](style-guidelines.md) section describes Status general approach to technical writing style and content structure. In [Structuring the content]](./structuring-the-content.md), you can find the different types of articles in the Status documentation, including directions on structuring your content. The [Style conventions](./style-conventions.md) section serves as a reference to the different styles in the Status documentation. Finally, [Terminology](./terminology.md), provides a list of common Status product names, as well as icon names and user interface areas names in the Status apps.
 
 Refer to our [documentation contributor's guide][contributors-guide] to contribute to this guide or the Status documentation.
 
@@ -26,6 +26,7 @@ Refer to our [documentation contributor's guide][contributors-guide] to contribu
 -   [:triangular_ruler: Style guidelines][style-guidelines]
 -   [:construction_site: Structuring the content][structuring-the-content]
 -   [:paintbrush: Style conventions][style-conventions]
+-   [:abcd: Terminology][terminology]
 
 <br>
 

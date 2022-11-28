@@ -1,6 +1,7 @@
 [style-guidelines]: /style-guidelines/
 [structuring-the-content]: /structuring-the-content/
 [style-conventions]: /style-conventions/
+[terminology]: /terminology/
 
 [coingecko]: https://www.coingecko.com/
 [coinmarketcap]: https://coinmarketcap.com/

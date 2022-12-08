@@ -379,8 +379,8 @@ When you describe a UI interaction, use these action verbs:
 | Go to a menu or screen | Use *go to*. |
 | Click a URL | For URLs, the verb depends on the user's intent:</br>- To complete another action (for example, to download something), use *visit*.</br>- To review the information on a different article or website, use *check*. |
 | Select a single UI element | *click* (desktop and web) or *tap* (mobile). |
-| Select multiple UI elements | *choose* for desktop, web, and mobile. |
-| Select text | *select* |
+| Select one or more user-preferred options from a list | *choose* </br>Example: *Choose a name and highlight colour for your group chat*. |
+| Select one or more specific option from a list / select text | *select* </br>Example: *Select any channel with a lock icon from the channel list*. |
 | Acion on checkboxes | *check* the [UI label] box (to enable) / *uncheck* the [UI label] box (to disable). |
 | Go to previous screen | Use *return*. |
 | Swipe element | Use *swipe* [left or right] for desktop, web, and mobile. |

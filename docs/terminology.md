@@ -46,6 +46,7 @@ This picture describes the main user interface areas for Status Mobile.
 | C | [content] list, where [content] depends on the list of elements.</br>For example, *Contacts list*, *Communities list*, and so on. |
 | D | action sheet, when the list of actions comes from the Status app / share sheet, when the list of actions comes from the operating system. |
 | E | tab bar |
+| F | tabs |
 
 ### Status Desktop and Status Web user interface areas
 

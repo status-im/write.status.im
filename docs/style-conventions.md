@@ -13,7 +13,17 @@ You can find *correct* and *incorrect* use examples in most of these style conve
 
 We prioritize simplicity over comprehensiveness. If you can't find a particular style convention, use the [Microsoft Style Guide :octicons-tab-external-16:][microsoft-style-guide]{:target="_blank"}. If you think a style convention is missing, you can [contribute :octicons-tab-external-16:][contributors-guide] to this topic.
 
+Some of these style conventions apply to user documentation and infrastructure documentation. We use the symbols user :fontawesome-regular-user: and infrastructure :octicons-cpu-24: to indicate this:
+
+| Symbol | Applies to |
+|: --- |:--- |
+| :fontawesome-regular-user: | Only to user documentation |
+| :octicons-cpu-24: | Only to infrastructure documentation |
+| :fontawesome-regular-user: · :octicons-cpu-24: | User and infrastructure documentation |
+
 ## Writing style
+
+:fontawesome-regular-user: User · :octicons-cpu-24: Infra
 
 !!! tip
     For general writing style guidelines, check out the [Writing style](style-guidelines.md#writing-style) section.
@@ -37,6 +47,8 @@ We prioritize simplicity over comprehensiveness. If you can't find a particular 
 
 ## Capitalization
 
+:fontawesome-regular-user: User · :octicons-cpu-24: Infra
+
 - Use sentence-style capitalization, including [titles](#titles). That means everything is lowercase except the first word, proper nouns, like the [Status product names](./terminology.md#status-products-and-features-names).
 
     | Usage       | Example                                     |
@@ -56,6 +68,8 @@ We prioritize simplicity over comprehensiveness. If you can't find a particular 
     | **Correct** | Many digital currencies use the ERC-20 standard: Status (STN), Basic Attention Token (BAT), MakerDAO (DAI), and others. |
 
 ## Titles
+
+:fontawesome-regular-user: User · :octicons-cpu-24: Infra
 
 - Use the rules described in the [Structuring the content](structuring-the-content.md) section for each [document type](./structuring-the-content.md#types-of-documents) (concept, procedure, reference, or guide).
 - Use meaningful titles that provide a precise idea of the article's content.
@@ -84,7 +98,7 @@ We prioritize simplicity over comprehensiveness. If you can't find a particular 
     | **Correct** | FAQ: Import data from Discord           | `faq-import-data-from-discord.md`            |
     | **Correct** | Do's and don'ts of Profile security     | `dos-and-donts-of-profile-security.md`       |
 
-- At the index page level, use a bold typeface to stress the action and the feature or concept in the document.
+- At the index page level, use a bold typeface to stress the action and the feature or concept in the document. :fontawesome-regular-user:
 
     | Usage       | Example                                   |
     |:------------|:------------------------------------------|
@@ -96,7 +110,9 @@ We prioritize simplicity over comprehensiveness. If you can't find a particular 
 
 ## Sentences and paragraphs
 
-- Write sentences of a maximum of 25 words and paragraphs of 5 lines or less. Rewrite the content and break sentences and paragraphs as necessary.
+:fontawesome-regular-user: User · :octicons-cpu-24: Infra
+
+- Write sentences of a maximum of 25 words and paragraphs of 5 lines or less. Rewrite the content and break sentences and paragraphs as necessary. :fontawesome-regular-user:
 - Include *the* and *that* to clarify your sentence.
 
     | Usage       | Example                                             |

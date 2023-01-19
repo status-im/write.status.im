@@ -2,7 +2,7 @@
 
 ![Status Help illustration](./overrides/assets/images/status-help-image.png)
 
-This repository contains the writing style guide for Status documentation hostd on [write.status.im](https://write.status.im).
+This repository contains the writing style guide for Status documentation hosted on [write.status.im](https://write.status.im).
 
 We use [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) to build the user documentation site.
 

@@ -563,7 +563,7 @@ Write in Global and Plain English.
     | Don't use         | Use                                   |
     |:------------------|:--------------------------------------|
     | cannot            | can't                                 |
-    | make sure         | ensure                                |
+    | make sure         | make sure                             |
     | have to           | must (see [Modal verbs](#modal-verbs))|
     | in order to       | to                                    |
     | in a way          | so                                    |

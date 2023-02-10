@@ -3,6 +3,7 @@
 [style-conventions]: /style-conventions/
 [terminology]: /terminology/
 
+[cambridge-dictionary]: https://dictionary.cambridge.org
 [coingecko]: https://www.coingecko.com/
 [coinmarketcap]: https://coinmarketcap.com/
 [contributors-guide]: https://github.com/status-im/help.status.im/blob/master/CONTRIBUTING.md
@@ -13,6 +14,7 @@
 [ISO4217]: https://en.wikipedia.org/wiki/ISO_4217
 [material-mkdocs-icons]: https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/
 [microsoft-style-guide]: https://docs.microsoft.com/en-us/style-guide/welcome/
+[plain-english-alternative-words]: https://www.plainenglish.co.uk/the-a-z-of-alternative-words.html
 [status-help]: https://help.status.im/
 [wikipedia-common-currencies]: https://en.wikipedia.org/wiki/Template:Most_traded_currencies
 [wikipedia-metric-system]: https://en.wikipedia.org/wiki/Metric_system

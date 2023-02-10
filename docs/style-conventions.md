@@ -550,7 +550,7 @@ Use the Oxford spelling.
 - Use the suffix *-ize* instead of *-ise*. As such, write *organize* and *organization*, not *organise* and *organisation*.
 - The rule above doesn't affect the spelling of words ending in *-yse*, such as *analyse*.
 - Some examples of the Oxford spelling include: globalization, behaviour, centre, defence, catalogue, programme.
-- If in doubt of any spelling, feel free to use the [Cambridge Dictionary][cambridge-dictionary]{:target="_blank"}.
+- If in doubt about any spelling, feel free to use the [Cambridge Dictionary][cambridge-dictionary]{:target="_blank"}.
 
 ## Word choice
 

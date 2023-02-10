@@ -1,6 +1,6 @@
 ---
 id: 12
-revision: 3
+revision: 4
 hide:
   - navigation
 ---
@@ -37,6 +37,7 @@ When creating technical content for Status, consider these guidelines:
 - Use *you* or *your* to address the user. The user and user's goals are at the center of the action, not the software.
 - Don't use cultural or local expressions, made-up words, figurative language, obscure acronyms, metaphors, or (needless to say) discriminatory language. Write for a general audience without considering factors such as race, ethnicity, religion, nationality, or gender.
 - Don't assume the reader has prior knowledge of a new concept when introducing it. Instead, explain the idea in simple terms and provide readers with resources or related topics to find out more.
+- Use a positive tone. Technical documentation should present information in a positive and helpful manner. Instead of describing what a product or feature can't do, focus on what it can do. This will help users understand the capabilities and benefits of the product or feature.
 - We don't obsess over grammar rules. Language isn't an exact science, and different style guides use different conventions. This guide follows the rule commonly accepted, disregarding exceptions.
 - Status documentation should be written in Global English using Oxford spelling.
 

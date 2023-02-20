@@ -529,7 +529,7 @@ Modal verbs are auxiliary verbs that modify the meaning of the main verb in a se
     | Incorrect | Want to personalize and customize your profile for how it appears to other Community members? If so, follow these instructions below! |
 
 - It's OK to use prepositions at the end of sentences (for example, *the user you're searching for*).
-- Don't use italics to introduce a new concept; in general, don't use them on any part of the text (except when writing a [UI element](#ui-elements) that uses italics.)
+- Don't use italics or quotes to introduce a new concept; in general, don't use them on any part of the text (except when writing a [UI element](#ui-elements) that uses italics or quotes.)
 - Avoid sentence connectors, such as *therefore*, *hence*, or *as a consequence*. Rewrite the sentences if necessary.
 - Don't use adjectives to describe a task's difficulty or time required.
 

@@ -1,6 +1,6 @@
 ---
 id: 12
-revision: 5
+revision: 6
 hide:
   - navigation
 ---
@@ -11,7 +11,7 @@ This document provides guidelines to create easy-to-read and follow topics for t
 
 ## Guidelines
 
-- Keep it short. Articles between 300-400 words are easy to read and support the user's workflow. Shorter articles are OK, but articles beyond 500 words are not. If necessary, organize the information into different articles.
+- Keep it short. Articles between 300-400 words are easy to read and support the user's workflow. Shorter articles are OK, but articles beyond 600 words are not. If necessary, organize the information into different articles.
 - Each paragraph has a single purpose and describes a single concept. Avoid mixing concepts in the same paragraph or repeating the same information in different paragraphs.
 - When there is more than one way to do something or describe something, use the most straightforward way only. Don't discuss all the possible ways.
 - Use [admonitions](./style-conventions.md#admonitions-callouts) selectively and strategically. Documents with multiple admonitions are harder to read. Add the information as a regular sentence or paragraph if you use more than three admonitions in a single document.
@@ -54,8 +54,8 @@ Status documentation aims to guide users in completing tasks and exploring the d
 | Admonition | 3 | Admonition | No | This admonition is exclusively to alert readers about the feature availability.</br>For example, a feature is only available to specific application role or available after completing another task. |
 | Introduction | 4 | Paragraph | **Yes** | A brief discussion of the concept. |
 | Example | 5 | Paragraph | No | An example explaining the concept in context. |
-| "The basics" title | 6 | H3 | **Yes** | H3 title reads "The basics." |
-| "The basics" list | 7 | Unordered list | **Yes** | A list summarizing the article's main takeaways. |
+| "The basics" title | 6 | H3 | **No** | H3 title reads "The basics." |
+| "The basics" list | 7 | Unordered list | **No** | A list summarizing the article's main takeaways. |
 | Admonition | 8 | Admonition | No | General info, tips, or warnings about the topic. |
 | Explanation title | 9 | H2 | **Yes** |
 | Explanation | 10 | Paragraph | **Yes** | One or more paragraphs describing the concept in detail. |
@@ -173,6 +173,18 @@ A procedure describes how to complete an action using a series of steps. Procedu
     | Incorrect   | 1. Select Change. A new Options dialog opens.</br>2. On this dialog, uncheck the Automatic box. |
 
 - Use one step for each user action. It's OK to combine simple actions into a single step.
+- When describing steps across different screens or menu options, use angle brackets (>) to describe the sequence of UI elements.
+
+    | Usage       | Example                                                         |
+    |:------------|:----------------------------------------------------------------|
+    | **Correct** | 1. Tap your profile picture > Privacy and security.             |
+    | Incorrect   | 1. Tap your profile picture and then, tap Privacy and security. |
+
+    If you use angle brackets, follow these guidelines:
+
+    - Put a space before and after each angle bracket.
+    - Don't bold each menu name separately; instead, enclose the entire sequence in a single bold element.
+
 - Limit the procedure to a maximum of six steps. If you need more steps to explain the task, create a subtask (see [Procedure structure](#procedure-structure)).
 - Don't use sublists inside lists; instead, use a new list on a subtask.
 - Use a period at the end of each step (check the [Punctuation](./style-conventions.md#punctuation) section for more information).
@@ -194,7 +206,7 @@ A procedure describes how to complete an action using a series of steps. Procedu
     | **Correct** | To remove the user from your contact list, tap Block user.                        |
     | Incorrect   | Tap Block user to remove the user from your contact list.                         |
 
-- Don't use links within a task, except when you need to reference a related subtask in the same article.
+- Don't use links in procedural stpes, except when you need to reference a related subtask in the same article. You can use links in the optional paragraph before the steps.
 
 ## Reference: help me to remember
 

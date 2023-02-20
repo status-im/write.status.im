@@ -1,6 +1,6 @@
 ---
 id: 20
-revision: 0
+revision: 1
 hide:
   - navigation
 ---
@@ -64,6 +64,7 @@ This picture describes the main user interface areas for Status Web and Status D
 | E | channel information at the top of the content area |
 | F | pinned messages area |
 
+<!--
 ## Icon names
 
 | Platform | Name       | Icon                 |
@@ -75,6 +76,7 @@ This picture describes the main user interface areas for Status Web and Status D
 | mobile   | delete     | :mobile-delete:      |
 | mobile   | send       | :mobile-send:        |
 | web      | members    | :web-members:        |
+-->
 
 <br>[:octicons-git-branch-24: Contribute to our docs][contributors-guide]{ .md-button }</br>
 

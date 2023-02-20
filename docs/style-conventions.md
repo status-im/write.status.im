@@ -1,6 +1,6 @@
 ---
 id: 12
-revision: 8
+revision: 9
 hide:
   - navigation
 ---
@@ -96,7 +96,7 @@ We prioritize simplicity over comprehensiveness. If you can't find a particular 
 
 ## Sentences and paragraphs
 
-- Write sentences of a maximum of 25 words and paragraphs of 5 lines or less. Rewrite the content and break sentences and paragraphs as necessary.
+- Write sentences of a maximum of 25 words and paragraphs of no more than 50-60 words. Rewrite the content and break sentences and paragraphs as necessary.
 - Include *the* and *that* to clarify your sentence.
 
     | Usage       | Example                                             |
@@ -324,16 +324,23 @@ UI elements are screen components the user can interact with. A checkbox, a menu
     | Incorrect   | On the **Permissions** pop-up, tap the **Write** permission.     |
     | Incorrect   | On **Permissions**, tap the **Write** permission.                |
 
-- Use a non-bolded greater-than sign (">") to guide users through different screens or options in the app. In particular, this is useful when users are moving between screens.
+- When describing actions across different screens or menu options, use angle brackets (>) to describe the sequence of UI elements.
 
     | Usage       | Example                                                            |
     |:------------|:-------------------------------------------------------------------|
-    | **Correct** | Go to **Settings** > **Messages** > **Privacy**.                   |
+    | **Correct** | Go to **Settings > Messages > Privacy**.                           |
     | Incorrect   | Go to **Settings**, then go to **Messages**, then tap **Privacy**. |
 
 ### Format guidelines
 
 - Format the UI element as seen on the screen, even if it contradicts the style conventions in this guide.
+- Write out the entire UI label, as seen on the screen.
+
+    | Usage       | Example                                                                                |
+    |:------------|:---------------------------------------------------------------------------------------|
+    | **Correct** | Check **I understand this is the only time I can see my recovery phrasse in the app**. |
+    | Incorrect   | Check **I understand this is ...**.                                                    |
+
 - Use a bold typeface to write UI controls in procedural steps (1, 2, 3, and so on). Don't use the bold typeface outside of the procedural steps.
 
     | Usage | Example |
@@ -377,11 +384,12 @@ When you describe a UI interaction, use these action verbs:
 | Action | Style convention (desktop, web, and mobile) |
 |:---|:---|
 | Go to a menu or screen | Use *go to*. |
-| Click a URL | For URLs, the verb depends on the user's intent:</br>- To complete another action (for example, to download something), use *visit*.</br>- To review the information on a different article or website, use *check out*. |
+| Click a URL | For URLs, the verb depends on the user's intent:</br>- To complete another action (for example, to download something), use *read*.</br>- To review the information on a different article or website, use *check out*. |
 | Select a single UI element | *click* (desktop and web) or *tap* (mobile). |
 | Select one or more user-preferred options from a list | *choose* </br>Example: *Choose a name and highlight colour for your group chat*. |
 | Select one or more specific option from a list / select text | *select* </br>Example: *Select any channel with a lock icon from the channel list*. |
 | Acion on checkboxes | *check* the [UI label] box (to enable) / *uncheck* the [UI label] box (to disable). |
+| Action on switches | *turn on*/*turn off* |
 | Go to previous screen | Use *return*. |
 | Swipe element | Use *swipe* [left or right] for desktop, web, and mobile. |
 | Long press | *long press* for mobile interactions, when required. |
@@ -521,7 +529,8 @@ Modal verbs are auxiliary verbs that modify the meaning of the main verb in a se
     | Incorrect | Want to personalize and customize your profile for how it appears to other Community members? If so, follow these instructions below! |
 
 - It's OK to use prepositions at the end of sentences (for example, *the user you're searching for*).
-- Don't use italics to introduce a new concept; in general, don't use them on any part of the text (except when writing a [UI element](#ui-elements) that uses italics.)
+- Don't use italics or quotes to introduce a new concept; in general, don't use them on any part of the text (except when writing a [UI element](#ui-elements) that uses italics or quotes.)
+- Avoid sentence connectors, such as *therefore*, *hence*, or *as a consequence*. Rewrite the sentences if necessary.
 - Don't use adjectives to describe a task's difficulty or time required.
 
     | Usage     | Example                                           |
@@ -568,6 +577,7 @@ Write in Global and Plain English.
     | in order to       | to                                    |
     | in a way          | so                                    |
     | need to           | Imperative form of verb (or *should*) |
+    | drag-and-drop     | drag and drop                         |
     | Who, Whose        | Replace the pronoun with the noun     |
     | &                 | and                                   |
     | time stamp        | timestamp                             |

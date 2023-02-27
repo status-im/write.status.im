@@ -25,7 +25,7 @@ Status user documentation topics fall into one of these categories:
 - [Reference](#reference-help-me-to-remember): help me to remember.
 - Guide: help me to do multiple related tasks.
 
-    !!! info
+    !!! note
         A guide consists of two or more procedures in a single document.
 
 ![Categories of topics in the Status documentation](./structuring-the-content/12-3-1-light.png#only-light)
@@ -39,7 +39,7 @@ For example, a user minting an NFT may not be interested in understanding the in
 
 Status documentation aims to guide users in completing tasks and exploring the different app features and functionalities. Therefore, concept topics are not as common as procedural topics.
 
-!!! info
+!!! note
     A list of frequently asked questions (FAQs) falls under the concept category.
 
 ### Concept structure
@@ -161,7 +161,7 @@ A procedure describes how to complete an action using a series of steps. Procedu
 - In the first step, tell the user where to start.
 - Follow the [UI elements guidelines](./style-conventions.md#ui-elements) to describe the user interactions.
 
-    !!! info
+    !!! note
         For clarity purposes, the user interface elements in these examples don't follow the [UI guidelines](./style-conventions.md#ui-elements).
 
 - Use words consistently when describing user actions. For example, if you use *remove* in one step, don't use *clear*, *empty* or another synonym in a different step.

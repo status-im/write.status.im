@@ -302,12 +302,12 @@ Use links to other articles in the Status documentation, but don't abuse links. 
 
     For the Mac version, use the `[Status website :octicons-tab-external-16:](https://status.im/get){:target="_blank"}`
 
-!!! info
+!!! note
     To manage URL in the Status documentation, we use a single file per language with all the internal and external links. Refer to the [Contributing :octicons-tab-external-16:][contributors-guide]{:target="_blank"} guide for information about using links in your document.
 
 ## UI elements
 
-!!! info
+!!! note
     For readability reasons, the examples in other sections don't use these UI elements conventions.
 
 UI elements are screen components the user can interact with. A checkbox, a menu, or a button are all UI elements. An explanatory text with no user interaction is not considered a UI element in the context of this guide.
@@ -405,7 +405,7 @@ When you describe a UI interaction, use these action verbs:
     | Admonition | Description |
     |:---|:---|
     | Tip | Information that is not necessary for the task, but it's helpful or nice to have. For example, information about a keyboard shortcut. |
-    | Info | Information that is relevant to complete the task, but has no impact on the user's actions. |
+    | Note | Information that is relevant to complete the task, but has no impact on the user's actions. |
     | Caution | Information that has an impact on the user's actions. Based on this information, the user may decide to complete or don't complete the task. |
 
 - Don't use *warning*, *error*, *danger*, *bug*, *important*, or *notes*.

@@ -15,7 +15,7 @@ Products and names include:
 - Products and services that are part of the [Status Network :octicons-tab-external-16:](https://statusnetwork.com/){:target="_blank"} (for example, Keycard).
 - Status apps features or proper nouns (like the Activity Center).
 
-!!! info
+!!! note
     Observe the capitalization convention. For example, use *Activity Center* and not *activity center*.
 
 | Product/UI name | Notes |
@@ -29,7 +29,7 @@ Products and names include:
 
 These sections describe how to name the different user interface areas in Status Help documentation.
 
-!!! info
+!!! note
     To write UI areas or sidebars, use a bold typeface only for the visible part in the UI. Check the [format guidelines](./style-conventions.md#format-guidelines) in UI elements for more information.
 
 ### Status Mobile user interface areas

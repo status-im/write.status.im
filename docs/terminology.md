@@ -1,6 +1,6 @@
 ---
 id: 20
-revision: 1
+revision: 2
 hide:
   - navigation
 ---
@@ -64,19 +64,43 @@ This picture describes the main user interface areas for Status Web and Status D
 | E | channel information at the top of the content area |
 | F | pinned messages area |
 
-<!--
 ## Icon names
 
-| Platform | Name       | Icon                 |
-|:---------|:-----------|:---------------------|
-| desktop  | edit       | :desktop-edit-2:     |
-| desktop  | group chat | :desktop-group-chat: |
-| desktop  | wallet     | :desktop-wallet:     |
-| mobile   | edit       | :mobile-edit:        |
-| mobile   | delete     | :mobile-delete:      |
-| mobile   | send       | :mobile-send:        |
-| web      | members    | :web-members:        |
--->
+This section lists the icons used by the mobile and web versions of Status. This list does not include the Status desktop icons, which will be updated to follow this convention after the Status MVP is released.
+
+!!! note
+    If the icon shows a label in the UI, use the UI label. If the icon doesn't show a label in the UI, use the label name on this table. For more information, check out [Iconography](style-conventions.md#iconography).
+
+| Label name | Icon |
+|:---|:---|
+| Add contact | :iconset-add-user: |
+| Add | :iconset-add: |
+| Microphone | :iconset-audio: |
+| Block User | :iconset-block: |
+| Camera | :iconset-camera: |
+| Communities | :iconset-communities: |
+| Delete | :iconset-delete: |
+| Edit | :iconset-edit: |
+| GIF | :iconset-gif: |
+| Group Members | :iconset-group-members: |
+| Image | :iconset-image: |
+| Open lock | :iconset-locked-lock: |
+| Log out | :iconset-log-out: |
+| Messages | :iconset-messages: |
+| More options | :iconset-more-options: |
+| Mute notifications | :iconset-mute: |
+| Notifications | :iconset-notifications: |
+| Pin message | :iconset-pin: |
+| Privacy | :iconset-privacy: |
+| Profile | :iconset-profile: |
+| QR code | :iconset-qr-code: |
+| Reaction | :iconset-reaction: |
+| Remove member | :iconset-remove-member: |
+| Remove user | :iconset-remove-user: |
+| Reply | :iconset-reply: |
+| Send | :iconset-send: |
+| Share | :iconset-share: |
+| Sticker | :iconset-sticker: |
 
 <br>[:octicons-git-branch-24: Contribute to our docs][contributors-guide]{ .md-button }</br>
 

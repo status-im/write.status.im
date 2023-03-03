@@ -54,7 +54,7 @@ Status documentation aims to guide users in completing tasks and exploring the d
 | Admonition | 3 | Admonition | No | This admonition is exclusively to alert readers about the feature availability.</br>For example, a feature is only available to specific application role or available after completing another task. |
 | Introduction | 4 | Paragraph | **Yes** | A brief discussion of the concept. |
 | Example | 5 | Paragraph | No | An example explaining the concept in context. |
-| "The basics" title | 6 | H3 | **No** | H3 title reads "The basics." |
+| "The basics" title | 6 | H2 | **No** | H2 title reads "The basics." |
 | "The basics" list | 7 | Unordered list | **No** | A list summarizing the article's main takeaways. |
 | Admonition | 8 | Admonition | No | General info, tips, or warnings about the topic. |
 | Explanation title | 9 | H2 | **Yes** |

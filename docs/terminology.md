@@ -74,9 +74,8 @@ This section lists the icons used by the mobile and web versions of Status. This
 | Label name | Icon |
 |:---|:---|
 | Activity centre | :iconset-activity-centre: |
-| Add contact | :iconset-add-user: |
 | Add | :iconset-add: |
-| Microphone | :iconset-audio: |
+| Add contact | :iconset-add-user: |
 | Block User | :iconset-block: |
 | Camera | :iconset-camera: |
 | Communities | :iconset-communities: |
@@ -86,12 +85,13 @@ This section lists the icons used by the mobile and web versions of Status. This
 | GIF | :iconset-gif: |
 | Group Members | :iconset-group-members: |
 | Image | :iconset-image: |
-| Open lock | :iconset-locked-lock: |
 | Log out | :iconset-log-out: |
 | Messages | :iconset-messages: |
+| Microphone | :iconset-audio: |
 | More options | :iconset-more-options: |
 | Muted | :iconset-muted: |
 | Notifications unread | :iconset-notifications-unread: |
+| Open lock | :iconset-locked-lock: |
 | Pin message | :iconset-pin: |
 | Privacy | :iconset-privacy: |
 | Profile | :iconset-profile: |

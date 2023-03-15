@@ -73,12 +73,14 @@ This section lists the icons used by the mobile and web versions of Status. This
 
 | Label name | Icon |
 |:---|:---|
+| Activity centre | :iconset-activity-centre: |
 | Add contact | :iconset-add-user: |
 | Add | :iconset-add: |
 | Microphone | :iconset-audio: |
 | Block User | :iconset-block: |
 | Camera | :iconset-camera: |
 | Communities | :iconset-communities: |
+| Contact | :iconset-contact: |
 | Delete | :iconset-delete: |
 | Edit | :iconset-edit: |
 | GIF | :iconset-gif: |
@@ -88,19 +90,19 @@ This section lists the icons used by the mobile and web versions of Status. This
 | Log out | :iconset-log-out: |
 | Messages | :iconset-messages: |
 | More options | :iconset-more-options: |
-| Mute notifications | :iconset-mute: |
-| Notifications | :iconset-notifications: |
+| Muted | :iconset-muted: |
+| Notifications unread | :iconset-notifications-unread: |
 | Pin message | :iconset-pin: |
 | Privacy | :iconset-privacy: |
 | Profile | :iconset-profile: |
 | QR code | :iconset-qr-code: |
 | Reaction | :iconset-reaction: |
 | Remove member | :iconset-remove-member: |
-| Remove user | :iconset-remove-user: |
 | Reply | :iconset-reply: |
 | Send | :iconset-send: |
 | Share | :iconset-share: |
 | Sticker | :iconset-sticker: |
+| Trusted | :iconset-trusted: |
 
 <br>[:octicons-git-branch-24: Contribute to our docs][contributors-guide]{ .md-button }</br>
 

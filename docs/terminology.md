@@ -91,7 +91,7 @@ This section lists the icons used by the mobile and web versions of Status. This
 | More options | :iconset-more-options: |
 | Muted | :iconset-muted: |
 | Notifications unread | :iconset-notifications-unread: |
-| Open lock | :iconset-locked-lock: |
+| Open lock | :iconset-open-lock: |
 | Pin message | :iconset-pin: |
 | Privacy | :iconset-privacy: |
 | Profile | :iconset-profile: |

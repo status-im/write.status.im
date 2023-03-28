@@ -75,8 +75,8 @@ This section lists the icons used by the mobile and web versions of Status. This
 |:---|:---|
 | Activity centre | :iconset-activity-centre: |
 | Add | :iconset-add: |
-| Add contact | :iconset-add-user: |
-| Block User | :iconset-block: |
+| Add contact | :iconset-add-contact: |
+| Block User | :iconset-block-user: |
 | Camera | :iconset-camera: |
 | Communities | :iconset-communities: |
 | Contact | :iconset-contact: |
@@ -86,8 +86,9 @@ This section lists the icons used by the mobile and web versions of Status. This
 | Group Members | :iconset-group-members: |
 | Image | :iconset-image: |
 | Log out | :iconset-log-out: |
+| Locked lock | :iconset-locked-lock: |
 | Messages | :iconset-messages: |
-| Microphone | :iconset-audio: |
+| Microphone | :iconset-microphone: |
 | More options | :iconset-more-options: |
 | Muted | :iconset-muted: |
 | Notifications unread | :iconset-notifications-unread: |
@@ -103,6 +104,15 @@ This section lists the icons used by the mobile and web versions of Status. This
 | Share | :iconset-share: |
 | Sticker | :iconset-sticker: |
 | Trusted | :iconset-trusted: |
+| one | :iconset-one: |
+| Two | :iconset-two: |
+| Three | :iconset-three: |
+| Four | :iconset-four: |
+| Five | :iconset-five: |
+| Six | :iconset-six: |
+| Seven | :iconset-seven: |
+| Eight | :iconset-eight: |
+| Nine | :iconset-nine: |
 
 <br>[:octicons-git-branch-24: Contribute to our docs][contributors-guide]{ .md-button }</br>
 

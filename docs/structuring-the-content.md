@@ -1,6 +1,6 @@
 ---
 id: 12
-revision: 6
+revision: 8
 hide:
   - navigation
 ---
@@ -13,8 +13,11 @@ This document provides guidelines to create easy-to-read and follow topics for t
 
 - Keep it short. Articles between 300-400 words are easy to read and support the user's workflow. Shorter articles are OK, but articles beyond 600 words are not. If necessary, organize the information into different articles.
 - Each paragraph has a single purpose and describes a single concept. Avoid mixing concepts in the same paragraph or repeating the same information in different paragraphs.
+- Use [admonitions](./style-conventions.md#admonitions) selectively and strategically. Documents with multiple admonitions are harder to read. Add the information as a regular sentence or paragraph if you use more than three admonitions in a single document.
 - When there is more than one way to do something or describe something, use the most straightforward way only. Don't discuss all the possible ways.
-- Use [admonitions](./style-conventions.md#admonitions-callouts) selectively and strategically. Documents with multiple admonitions are harder to read. Add the information as a regular sentence or paragraph if you use more than three admonitions in a single document.
+
+    !!! tip
+        If it's worth mentioning an alternative method of completing a procedure, use a tip-style admonition to describe the alternative way briefly.
 
 ## Types of documents
 
@@ -54,8 +57,8 @@ Status documentation aims to guide users in completing tasks and exploring the d
 | Admonition | 3 | Admonition | No | This admonition is exclusively to alert readers about the feature availability.</br>For example, a feature is only available to specific application role or available after completing another task. |
 | Introduction | 4 | Paragraph | **Yes** | A brief discussion of the concept. |
 | Example | 5 | Paragraph | No | An example explaining the concept in context. |
-| "The basics" title | 6 | H2 | **No** | H2 title reads "The basics." |
-| "The basics" list | 7 | Unordered list | **No** | A list summarizing the article's main takeaways. |
+| "The basics" title | 6 | H2 | No | H2 title reads "The basics." |
+| "The basics" list | 7 | Unordered list | No | A list summarizing the article's main takeaways. |
 | Admonition | 8 | Admonition | No | General info, tips, or warnings about the topic. |
 | Explanation title | 9 | H2 | **Yes** |
 | Explanation | 10 | Paragraph | **Yes** | One or more paragraphs describing the concept in detail. |
@@ -93,6 +96,7 @@ A procedure describes how to complete an action using a series of steps. Procedu
 - Non-procedural descriptions must be short and to the point. If the functionality requires further discussion, use an additional [concept article](#concept-help-me-to-understand).
 - A procedure explains a single task and, if necessary, additional subtasks. If the task is complex, consider splitting it into different procedures or group them into a [guide](#guide-help-me-to-do-multiple-related-tasks).
 - For tasks that may cause an error (for example, changing a password, choosing a user name, or sending crypto), consider adding a *Common questions* section at the end of the article, with answers to the most common issues. If the list of possible errors for a specific task is too long, use a [FAQ](#concept-help-me-to-understand) (concept) article instead.
+- If the user can complete the procedure in one go, use a numbered list to describe the steps. Use checkboxes if the user can't complete the procedure in one go or the steps don't follow a particular order.
 
 ### Procedure structure
 
@@ -100,13 +104,13 @@ A procedure describes how to complete an action using a series of steps. Procedu
 ![Layout of the procedure type topic](./structuring-the-content/12-4-4-dark.png#only-dark)
 
 | Element | # | Style | Required | Notes |
-| --- | --- | --- | --- | --- |
+|:---|:---|:---|:---|:---|
 | Title | 1 | H1 | **Yes** |
 | Screenshot | 2 | PNG / GIF | No | The screenshot shows the area in the app where the discussion or action takes place.</br>Reference-only topics (tables) don't require this screenshot. |
 | Admonition | 3 | Admonition | No | This admonition is exclusively to alert readers about the feature availability.</br>For example, a feature is only available to specific application roles or available after completing another task. |
 | Introduction | 4 | Paragraph | **Yes** | A brief discussion of the functionality and its relationship with other functionalities.</br>The introduction answers the "what is this" |
 | Example | 5 | Paragraph | No | An example explaining the functionality in context.</br>The example answers "why it matters." |
-| "What to expect" title | 6 | H3 | No | H3 title reads "What to expect." |
+| "What to expect" title | 6 | H2 | No | H2 title reads "What to expect." |
 | "What to expect" list | 7 | Unordered list | No | List the expected results after completing the task. |
 | Admonition | 8 | Admonition | No | General notes, tips, or warnings about the task. |
 | Tasks title | 9 | H2 | **Yes** |
@@ -119,8 +123,8 @@ A procedure describes how to complete an action using a series of steps. Procedu
 | Subtask screenshot | 16 | PNG / GIF | No |
 | Subtask admonition | 17 | Admonition | No | Info, tips, or warnings about the task. |
 | Common questions title | 18 | H2 | No | H2 title reads "Common questions". |
-| Common question subtitle | 19 | H3 | No | Common question subtitle. |
-| Common question paragraph | 20 | Paragraph | No | Answer to the common question. |
+| Common questions subtitle | 19 | H3 | No | Common questions subtitle. |
+| Common questions paragraph | 20 | Paragraph | No | Answers to common questions. |
 
 (*) Subtasks don't include an introduction sentence.
 
@@ -206,7 +210,8 @@ A procedure describes how to complete an action using a series of steps. Procedu
     | **Correct** | To remove the user from your contact list, tap Block user.                        |
     | Incorrect   | Tap Block user to remove the user from your contact list.                         |
 
-- Don't use links in procedural stpes, except when you need to reference a related subtask in the same article. You can use links in the optional paragraph before the steps.
+- Don't use links in procedural steps, except when you need to reference a related subtask in the same article. You can use links in the optional paragraph before the steps.
+- To describe menus or buttons in a particular user interface area, follow the order of the interface itself, going from left to right and from top to bottom. This means that if the user has the option to choose between *save* and *cancel* buttons, and the *save* button appears first, you should describe them in that order.
 
 ## Reference: help me to remember
 

@@ -1,11 +1,47 @@
 ---
 id: 20
-revision: 2
+revision: 3
 hide:
   - navigation
 ---
 
 # Terminology
+
+## Word choice
+
+Write in Global and Plain English.
+
+- Don't use words that can be confusing for non-native speakers. For more details, see the [A-Z of alternative words :octicons-tab-external-16:][plain-english-alternative-words]{:target="_blank"} composed by the Plain English Campaign.
+- Don't use Latin abbreviations like *e.g.*, *etc.* or *i.e.* Use an English equivalent, like *for example*, *and so on*, or *that is*.
+- This table summarizes some common words and terms.
+
+| Don't use            | Use                                    |
+|:---------------------|:---------------------------------------|
+| cannot               | can't                                  |
+| ensure               | make sure                              |
+| have to              | must (see [Modal verbs](./style-conventions.md#modal-verbs)) |
+| in order to          | to                                     |
+| in a way             | so                                     |
+| need to              | Imperative form of verb (or *should*)  |
+| drag-and-drop        | drag and drop                          |
+| Who, Whose           | Replace the pronoun with the noun      |
+| &                    | and                                    |
+| time stamp           | timestamp                              |
+| web site             | website                                |
+| application          | app                                    |
+| check box            | checkbox                               |
+| run (an app)         | launch (an app)                        |
+| cryptocurrency       | crypto                                 |
+| Defi                 | DeFi                                   |
+| Dapp, dApp           | DApp                                   |
+| MacOS                | macOS                                  |
+| Macintosh            | Mac                                    |
+| GNU Linux            | Linux                                  |
+| Apple Silicon        | Apple silicon                          |
+| Intel (processor)    | Intel processor                        |
+| Web3, Web3.0, web3.0 | web3                                   |
+| DApp or dapp         | dApp                                   |
+| avatar | profile picture |
 
 ## Status products and features names
 
@@ -66,53 +102,7 @@ This picture describes the main user interface areas for Status Web and Status D
 
 ## Icon names
 
-This section lists the icons used by the mobile and web versions of Status. This list does not include the Status desktop icons, which will be updated to follow this convention after the Status MVP is released.
-
-!!! note
-    If the icon shows a label in the UI, use the UI label. If the icon doesn't show a label in the UI, use the label name on this table. For more information, check out [Iconography](style-conventions.md#iconography).
-
-| Label name | Icon |
-|:---|:---|
-| Activity centre | :iconset-activity-centre: |
-| Add | :iconset-add: |
-| Add contact | :iconset-add-contact: |
-| Block User | :iconset-block-user: |
-| Camera | :iconset-camera: |
-| Communities | :iconset-communities: |
-| Contact | :iconset-contact: |
-| Delete | :iconset-delete: |
-| Edit | :iconset-edit: |
-| GIF | :iconset-gif: |
-| Group Members | :iconset-group-members: |
-| Image | :iconset-image: |
-| Log out | :iconset-log-out: |
-| Locked lock | :iconset-locked-lock: |
-| Messages | :iconset-messages: |
-| Microphone | :iconset-microphone: |
-| More options | :iconset-more-options: |
-| Muted | :iconset-muted: |
-| Notifications unread | :iconset-notifications-unread: |
-| Open lock | :iconset-open-lock: |
-| Pin message | :iconset-pin: |
-| Privacy | :iconset-privacy: |
-| Profile | :iconset-profile: |
-| QR code | :iconset-qr-code: |
-| Reaction | :iconset-reaction: |
-| Remove member | :iconset-remove-member: |
-| Reply | :iconset-reply: |
-| Send | :iconset-send: |
-| Share | :iconset-share: |
-| Sticker | :iconset-sticker: |
-| Trusted | :iconset-trusted: |
-| one | :iconset-one: |
-| Two | :iconset-two: |
-| Three | :iconset-three: |
-| Four | :iconset-four: |
-| Five | :iconset-five: |
-| Six | :iconset-six: |
-| Seven | :iconset-seven: |
-| Eight | :iconset-eight: |
-| Nine | :iconset-nine: |
+If the icon shows a label in the UI, use the UI label. If the icon doesn't show a label in the UI, use the a name based on the icon's Figma description.
 
 <br>[:octicons-git-branch-24: Contribute to our docs][contributors-guide]{ .md-button }</br>
 

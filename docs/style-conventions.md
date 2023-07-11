@@ -1,6 +1,6 @@
 ---
 id: 12
-revision: 10
+revision: 11
 hide:
   - navigation
 ---
@@ -74,11 +74,13 @@ We prioritize simplicity over comprehensiveness. If you can't find a particular 
     - Use the article's title in all-lowercase letters for the Markdown file name.
     - Use a dash symbol ("-") to replace spaces.
     - Don't exclude articles, prepositions, or any other word in the Markdown file name.
-    - If the name includes apostrophes, remove them from the Markdown file name.
+    - If the name includes apostrophes, remove them from the Markdown file name. If the apostrophe is part of the [possesive form](#possessive-form) with an extra *s* letter, separate the letter in the name (example: `transfer-you-community-s-ownership`).
 
     | Usage       | Article name                            | Markdown file name                           |
     |:------------|:----------------------------------------|:---------------------------------------------|
     | **Correct** | Browse people and Communities in Status | `browse-people-and-communities-in-status.md` |
+    | **Correct** | Transfer your community's ownership     | `transfer-your-community-s-ownership`        |
+    | Incorrect   | Trasnfer your community's ownership     | `transfer-your-communitys-ownership`         |
     | Incorrect   | Browse people and Communities in Status | `Browse-people-and-Communities-in-Status.md` |
     | Incorrect   | Browse people and Communities in Status | `browse-people-communities-status.md`        |
     | **Correct** | FAQ: Import data from Discord           | `faq-import-data-from-discord.md`            |
@@ -138,10 +140,12 @@ We prioritize simplicity over comprehensiveness. If you can't find a particular 
     - Use a comma before *such as*.
     - Use a comma after *for example*.
     - Use the Oxford comma for *and* and *or* conjunctions where the meaning of your sentence would otherwise be unclear. In other cases, avoid placing the extra comma.
+    - In procedural steps, don't write a comma in sentences such as *click on cancel, and then...*
 - Use these guidelines for periods:
     - Use a period at the end of a sentence, including sentences ending on a [URL](#links).
     - Observe the punctuation rules for items on a [bullet list](#bullet-lists).
 - Don't use semicolons. Instead, use a period and write the text after the semicolon in a new sentence.
+- Avoid preceding tables with colons. Instead, use a period.
 - Don't use dashes (_em_ or _en_ dashes.) Instead, use parenthesis if you need to clarify information.
 - Use parenthesis sparingly, and don't write essential information inside parenthesis.
 - Don't use bold or italics with punctuation symbols.
@@ -217,6 +221,9 @@ You can also use tables to compare the available options across different elemen
 
 Remember that users may access the information using a smartphone. Therefore, if your table contains a lot of information or more than three or four columns, consider organizing it differently or using more than one table.
 
+!!! tip
+    You can use [links](#links) in tables except if the table is part of a procedure step.
+
 ## Numbers, date and time, currencies, and units of measure
 
 - In body text, spell out whole numbers from zero through nine and use numerals for 10 or greater.
@@ -229,16 +236,23 @@ Remember that users may access the information using a smartphone. Therefore, if
     | Incorrect   | 0,13    |
     | Incorrect   | 0'13    |
 
-- Don't use the thousand separator. While the separator improves readability (especially for very long numbers), their symbol and placement vary among countries.
+- When writing in English, use a comma (,) as the thousand separator and a colon (.) as the decimal separator to improve readability. For languages other than English, use the commonly accepted rule in the country or a comma if a common practice is unknown or controversial.
 
-    | Usage       | Example |
-    |:------------|:--------|
-    | **Correct** | 2500    |
-    | Incorrect   | 2,500   |
-    | **Correct** | 12500   |
-    | Incorrect   | 12.500  |
-    | **Correct** | 118000  |
-    | Incorrect   | 118'000 |
+    !!! note
+        There isn't a common notation for thousand and decimal separators and notation varies among different countries. In the United States, the decimal separator is a period (.) and the thousands separator is a comma (,). In Germany, the decimal separator is a comma (,) and the thousands separator is a period (.). In Sweden, the thousands separator is a space.
+
+    | Usage       | Example     |
+    |:------------|:------------|
+    | **Correct** | 2,500       |
+    | Incorrect   | 2500        |
+    | **Correct** | 12,500      |
+    | Incorrect   | 12.500      |
+    | **Correct** | 2,500.46    |
+    | Incorrect   | 2.500,46    |
+    | **Correct** | 118,000     |
+    | Incorrect   | 118 000     |
+    | **Correct** | 118,000,000 |
+    | Incorrect   | 118'000'000 |
 
 - Don't use *rd.* or *th.* to express dates or indicate the order of things.
 
@@ -268,7 +282,6 @@ Remember that users may access the information using a smartphone. Therefore, if
     | Incorrect   | half past eight      |
 
 - Use the [UTC time standard :octicons-tab-external-16:](https://en.wikipedia.org/wiki/Coordinated_Universal_Time){:target="_blank"} when writing for a global audience.
-
 - For cryptocurrencies, NFTs, or DeFi tokens, use the symbol described on their website or use the symbol from [CoinMarketCap :octicons-tab-external-16:][coinmarketcap]{:target="_blank"} or [CoinGecko :octicons-tab-external-16:][coingecko]{:target="_blank"} websites.
 - To write a crypto amount, place the symbol after the number.
 - To write fiat, use the [ISO4217 :octicons-tab-external-16:][ISO4217] currency symbol after the amount. If you're using fiat to illustrate a concept, use [commonly-known currencies :octicons-tab-external-16:][wikipedia-common-currencies] like the USA dollar (USD), Euro (EUR), or Japanese yen (JPY).
@@ -286,9 +299,18 @@ Use links to other articles in the Status documentation, but don't abuse links. 
 
     | Usage         | Example                                                                 |
     |:--------------|:------------------------------------------------------------------------|
-    | **Correct**   | To learn more about tokens, check the *Understad Status tokens* article |
-    | **Incorrect** | To learn more about tokens, check *this* article                        |
+    | **Correct**   | For more details about tokens, check the *Understad Status tokens* article |
+    | **Incorrect** | For more detals about tokens, check *this* article                        |
 
+- When pointing the user to external sources, start you sentence with *For more details*.
+
+    | Usage         | Example                                                                    |
+    |:--------------|:---------------------------------------------------------------------------|
+    | **Correct**   | For more details about tokens, check the *Understad Status tokens* article |
+    | **Correct**   | For more details, check the *Understad Status tokens* article              |
+    | **Incorrect** | To learn more about tokens, check *this* article                           |
+    | **Incorrect** | For more information about tokens, check *this* article                    |
+ 
 - For links outside of the Status documentation site, use the `:octicons-tab-external-16:` icon (part of the [Material for MkDocs icons bundle :octicons-tab-external-16:][material-mkdocs-icons]) at the end of the link description.
 
     | Usage | Example |
@@ -369,13 +391,13 @@ UI elements are screen components the user can interact with. A checkbox, a menu
 
 - Use *area* or *sidebar* (unbolded) to describe a particular group of elements on the current screen. Don't use *section*, *panel*, or *pane*. Check the [Products and user interface names](#product-and-user-interface-names) section for a description of individual UI areas.
 
-    | Usage       | Example                                                                  |
-    |:------------|:-------------------------------------------------------------------------|
-    | **Correct** | In the content area, right-click your message and and click **Edit**.    |
+    | Usage       | Example                                                                |
+    |:------------|:-----------------------------------------------------------------------|
+    | **Correct** | In the content area, right-click your message and and click **Edit**.  |
     | Incorrect   | In the content panel, right-click your message and and click **Edit**. |
-    | **Correct** | From the navigation sidebar, click your profile picture.                 |
-    | Incorrect   | From the navigation section, click your profile picture.                 |
-    | Incorrect   | From the **navigation** sidebar, click your profile picture.                 |
+    | **Correct** | From the navigation sidebar, click your profile picture.               |
+    | Incorrect   | From the navigation section, click your profile picture.               |
+    | Incorrect   | From the **navigation** sidebar, click your profile picture.           |
 
 ### User actions
 
@@ -491,10 +513,10 @@ Modal verbs are auxiliary verbs that modify the meaning of the main verb in a se
 
 - Use contractions to make your text more casual.
 
-    | Usage   | Example                           |
-    |:--------|:----------------------------------|
-    | **Use** | you're / isn't / can't / it's     |
-    | Avoid   | you are / is not / cannot / it is |
+|  | Usage   | Example                                    |
+|--|:--------|:-------------------------------------------|
+|  | **Use** | you're / isn't / can't / it's / can't      |
+|  | Avoid   | you are / is not / cannot / it is / cannot |
 
 - Avoid the *'d* (had or would) and *'ve* (have) contractions, as these may be difficult to understand for non-native speakers.
 
@@ -530,6 +552,14 @@ Modal verbs are auxiliary verbs that modify the meaning of the main verb in a se
 
 - It's OK to use prepositions at the end of sentences (for example, *the user you're searching for*).
 - Don't use italics or quotes to introduce a new concept; in general, don't use them on any part of the text (except when writing a [UI element](#ui-elements) that uses italics or quotes.)
+- Use code formatting to distinguish parameters or options from the rest of your text when discussing them outside of procedure steps.
+
+    | Usage       | Example                                                                           |
+    |:------------|:----------------------------------------------------------------------------------|
+    | **Correct** | You can use the `Is Allowed` and `In options` to modify the permission scope.     |
+    | Incorrect   | You can use the Is Allowed and In options to modify the permission scope.         |
+    | Incorrect   | You can use the **Is Allowed** and **In** options to modify the permission scope. |
+
 - Avoid sentence connectors, such as *therefore*, *hence*, or *as a consequence*. Rewrite the sentences if necessary.
 - Don't use adjectives to describe a task's difficulty or time required.
 
@@ -560,39 +590,6 @@ Use the Oxford spelling.
 - The rule above doesn't affect the spelling of words ending in *-yse*, such as *analyse*.
 - Some examples of the Oxford spelling include: globalization, behaviour, centre, defence, catalogue, programme.
 - If in doubt about any spelling, feel free to use the [Cambridge Dictionary][cambridge-dictionary]{:target="_blank"}.
-
-## Word choice
-
-Write in Global and Plain English.
-
-- Don't use words that can be confusing for non-native speakers. For more details, see the [A-Z of alternative words :octicons-tab-external-16:][plain-english-alternative-words]{:target="_blank"} composed by the Plain English Campaign.
-- Don't use Latin abbreviations like *e.g.*, *etc.* or *i.e.* Use an English equivalent, like *for example*, *and so on*, or *that is*.
-- This list summarizes some common words and terms:
-
-    | Don't use         | Use                                   |
-    |:------------------|:--------------------------------------|
-    | cannot            | can't                                 |
-    | ensure            | make sure                             |
-    | have to           | must (see [Modal verbs](#modal-verbs))|
-    | in order to       | to                                    |
-    | in a way          | so                                    |
-    | need to           | Imperative form of verb (or *should*) |
-    | drag-and-drop     | drag and drop                         |
-    | Who, Whose        | Replace the pronoun with the noun     |
-    | &                 | and                                   |
-    | time stamp        | timestamp                             |
-    | web site          | website                               |
-    | application       | app                                   |
-    | check box         | checkbox                              |
-    | run (an app)      | launch (an app)                       |
-    | cryptocurrency    | crypto                                |
-    | Defi              | DeFi                                  |
-    | Dapp, dApp        | DApp                                  |
-    | MacOS             | macOS                                 |
-    | Macintosh         | Mac                                   |
-    | GNU Linux         | Linux                                 |
-    | Apple Silicon     | Apple silicon                         |
-    | Intel (processor) | Intel processor                       |
 
 <br>[:octicons-git-branch-24: Contribute to our docs][contributors-guide]{ .md-button }</br>
 
